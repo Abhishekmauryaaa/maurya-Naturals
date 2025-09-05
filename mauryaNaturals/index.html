@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Maurya Naturals - Pure Cold-Pressed Mustard Oil and Desi Spices</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #f5f1e8;
+            background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grain" patternUnits="userSpaceOnUse" width="50" height="50" patternTransform="rotate(45)"><rect width="40" height="50" fill="%23ddaa4a" opacity="0.05"/><circle cx="25" cy="25" r="10" fill="%238b5a3c" opacity="0.1"/></pattern></defs><rect width="100" height="100" fill="url(%23grain)"/></svg>');
+        }
+        .hero {
+            background: linear-gradient(135deg, #ddaa4a 0%, #8b5a3c 40%, #6b4731 100%);
+            color: black;
+        }
+        .banner {
+            background: #d4af37;
+            color: #fff;
+            text-align: center;
+            font-weight: bold;
+            padding: 10px;
+            animation: blink 2s infinite;
+            border-top: 3px solid #8b5a3c;
+            border-bottom: 3px solid #8b5a3c;
+        }
+        @keyframes blink {
+            0%, 50% { opacity: 1; }
+            51%, 100% { opacity: 0.5; }
+        }
+        .rustic-card {
+            border: 2px solid #8b5a3c;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            background: linear-gradient(145deg, #f5f1e8 0%, #e8d5b7 100%);
+        }
+        .product-img {
+            transition: transform 0.3s ease;
+            border: 2px solid #ddaa4a;
+            border-radius: 8px;
+        }
+        .product-img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+        }
+        .village-accent {
+            background: rgba(139, 90, 60, 0.1);
+            border-left: 5px solid #ddaa4a;
+        }
+        footer {
+            background: #6b4731;
+            color: #f5f1e8;
+        }
+        nav {
+            background: #f5f1e8;
+            box-shadow: inset 0 1px 3px rgba(139, 90, 60, 0.4);
+        }
+        h2, h3 {
+            font-variant: small-caps;
+            letter-spacing: 0.5px;
+        }
+        .storytelling {
+            background: #e8d5b7;
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid #8b5a3c;
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <!-- Banner -->
+    <div class="banner">
+        Coming Soon – Launching this Month! (Fresh from the Village!)
+    </div>
+
+    <!-- Navigation -->
+  <nav class="sticky top-0 z-10 border-b-2 border-brown-800 bg-[#f5f1e8]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center py-4">
+            <!-- Logo + Brand Name -->
+            <div class="flex items-center space-x-3">
+                <img src="/images/logo.png" alt="Maurya Naturals Logo" class="w-16 h-16 rounded-full" />
+                <span class="text-xl font-bold text-brown-800">Maurya Naturals</span>
+            </div>
+
+            <!-- Menu -->
+            <ul class="flex space-x-6 text-sm font-medium">
+                <li><a href="#home" class="hover:text-brown-600">Home</a></li>
+                <li><a href="#about" class="hover:text-brown-600">About Us</a></li>
+                <li><a href="#products" class="hover:text-brown-600">Products</a></li>
+                <li><a href="#testimonials" class="hover:text-brown-600">Testimonials</a></li>
+                <li><a href="#contact" class="hover:text-brown-600">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+    <!-- Hero Section -->
+    <section id="home" class="hero text-white py-20 text-center bg-cover bg-center" style="background-image: url('https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/8aece075-08db-4095-ae08-ddfe2d0b39fc.png');">
+        <div class="max-w-7xl mx-auto px-4">
+            <h1 class="text-4xl md:text-6xl font-bold mb-4  text-[#6b4731]">Welcome to Maurya Naturals</h1>
+            <p class="text-lg mb-8  text-[#6b4731]">Pure Cold-Pressed Mustard Oil & 100% Homemade Indian Spices from the Village Heart of Bihar</p>
+            <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/1be00f00-8e5d-43fb-8580-6ea6ae404a16.png" class="mx-auto rounded-lg shadow-lg product-img" />
+            <p class="mt-4 village-accent  text-white text-2xl font-bold bg-[#6b4731] rounded-md px-4 py-2 inline-block">Brought to you straight from Rampur Chai's fields to your kitchen!</p>
+        </div>
+    </section>
+
+    <!-- About Us -->
+    <section id="about" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-8 text-brown-800">About Us</h2>
+            <div class="grid md:grid-cols-2 gap-8 items-center">
+                <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/2ca61848-56b4-4255-9239-812aa0cf3b13.png" class="rounded-lg shadow-lg product-img" />
+                <div class="storytelling">
+                    <p class="text-lg leading-relaxed mb-4">Nestled in the serene village of Rampur Chai, Arwal (Bihar), India, Maurya Naturals is more than a brand – it's a family tradition...</p>
+                    <p class="text-lg leading-relaxed">Our mission? To preserve the rustic essence of village life in every drop of oil and every pinch of spice...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products -->
+    <section id="products" class="py-16 bg-[#fdfaf3]">
+  <div class="max-w-7xl mx-auto px-4">
+    <h2 class="text-3xl font-bold text-center mb-12 text-brown-800">Our Village-Made Products</h2>
+
+    <!-- Product Grid -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
+      <!-- Product Card Template -->
+      <!-- Repeat this block for each product -->
+
+      <!-- Mustard Oil -->
+      <div class="rustic-card p-5 text-center">
+        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/804b050e-b51a-4fb7-bc83-a12b695eaaab.png"
+             alt="Mustard Oil" class="w-full h-48 object-cover product-img mb-4" />
+        <h3 class="text-xl font-semibold mb-1">Cold-Pressed Mustard Oil</h3>
+        <p class="text-sm mb-2">Pressed fresh in village mills, full of aroma & health benefits.</p>
+        <p class="font-bold text-brown-600">₹250/500ml | ₹450/1L</p>
+      </div>
+
+      <!-- Turmeric -->
+      <div class="rustic-card p-5 text-center">
+        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/cfee0ce1-7e11-4786-ac94-6d490dd42532.png"
+             alt="Turmeric Powder" class="w-full h-48 object-cover product-img mb-4" />
+        <h3 class="text-xl font-semibold mb-1">Turmeric Powder</h3>
+        <p class="text-sm mb-2">Homegrown, sun-dried, stone-ground for golden purity.</p>
+        <p class="font-bold text-brown-600">₹100/200g</p>
+      </div>
+
+      <!-- Chili Powder -->
+      <div class="rustic-card p-5 text-center">
+        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/a53a6bba-e6be-4157-a46c-4dbab38fc04a.png"
+             alt="Red Chili Powder" class="w-full h-48 object-cover product-img mb-4" />
+        <h3 class="text-xl font-semibold mb-1">Red Chili Powder</h3>
+        <p class="text-sm mb-2">Hand-milled from fiery village chilies. Hot & flavorful!</p>
+        <p class="font-bold text-brown-600">₹150/250g</p>
+      </div>
+
+      <!-- Coriander -->
+      <div class="rustic-card p-5 text-center">
+        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/ce569bf4-e316-4c1a-aceb-47fb43994c4a.png"
+             alt="Coriander Powder" class="w-full h-48 object-cover product-img mb-4" />
+        <h3 class="text-xl font-semibold mb-1">Coriander Powder</h3>
+        <p class="text-sm mb-2">Earthy & aromatic, stone-ground in small village batches.</p>
+        <p class="font-bold text-brown-600">₹120/200g</p>
+      </div>
+
+      <!-- Cumin -->
+      <div class="rustic-card p-5 text-center">
+        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/07e48948-245f-4974-a2c8-e18f16578f24.png"
+             alt="Cumin" class="w-full h-48 object-cover product-img mb-4" />
+        <h3 class="text-xl font-semibold mb-1">Whole & Ground Cumin</h3>
+        <p class="text-sm mb-2">Bold & fragrant cumin from sun-dried village harvests.</p>
+        <p class="font-bold text-brown-600">₹130/150g</p>
+      </div>
+
+      <!-- Garam Masala -->
+      <div class="rustic-card p-5 text-center">
+        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/ec8277ac-78fe-49ce-815d-c25694e90e65.png"
+             alt="Garam Masala" class="w-full h-48 object-cover product-img mb-4" />
+        <h3 class="text-xl font-semibold mb-1">Garam Masala</h3>
+        <p class="text-sm mb-2">Family-secret masala blended under the sun in Rampur.</p>
+        <p class="font-bold text-brown-600">₹160/200g</p>
+      </div>
+      
+      <!-- Garam Masala -->
+      <div class="rustic-card p-5 text-center">
+        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/ec8277ac-78fe-49ce-815d-c25694e90e65.png"
+             alt="Garam Masala" class="w-full h-48 object-cover product-img mb-4" />
+        <h3 class="text-xl font-semibold mb-1">Garam Masala</h3>
+        <p class="text-sm mb-2">Family-secret masala blended under the sun in Rampur.</p>
+        <p class="font-bold text-brown-600">₹160/200g</p>
+      </div>
+      
+      <!-- Garam Masala -->
+      <div class="rustic-card p-5 text-center">
+        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/ec8277ac-78fe-49ce-815d-c25694e90e65.png"
+             alt="Garam Masala" class="w-full h-48 object-cover product-img mb-4" />
+        <h3 class="text-xl font-semibold mb-1">Garam Masala</h3>
+        <p class="text-sm mb-2">Family-secret masala blended under the sun in Rampur.</p>
+        <p class="font-bold text-brown-600">₹160/200g</p>
+      </div>
+
+      <!-- Add more product blocks here -->
+    </div>
+  </div>
+</section>
+
+
+    <!-- Contact Us -->
+    <section id="contact" class="py-16 bg-white text-center">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-8 text-brown-800">Get in Touch with Our Village</h2>
+            <p class="mb-4">Find us at: Rampur Chai, Arwal (Bihar), India</p>
+            <a href="https://wa.me/917999888877?text=Hi%20Maurya%20Naturals%2C%20I%20want%20to%20order%20your%20products" class="bg-green-500 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-600">Order via WhatsApp</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <p>© 2023 Maurya Naturals. Crafted with love in Rampur Chai.</p>
+            <div class="mt-4">
+                <a href="https://instagram.com/mauryanaturals" class="mx-2 text-xl">Instagram</a> |
+                <a href="https://facebook.com/mauryanaturals" class="mx-2 text-xl">Facebook</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        document.addEventListener("DOMContentLoaded", function () {
+            if (!localStorage.getItem('visited')) {
+                setTimeout(function () {
+                    alert("Namaste! Welcome to Maurya Naturals from Rampur Chai village.");
+                    localStorage.setItem('visited', 'yes');
+                }, 2000);
+            }
+        });
+    </script>
+
+</body>
+</html>
